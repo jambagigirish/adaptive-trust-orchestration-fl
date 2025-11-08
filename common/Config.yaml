@@ -1,1 +1,13 @@
-
+federated:
+  rounds: 50
+  epochs: 1
+  batch_size: 32
+  clip_norm: 1.0
+trust:
+  gamma: 0.8
+  tau_low: 0.3
+  tau_medium: 0.6
+  tau_high: 0.8
+privacy:
+  differential_privacy: true
+  eps: 1.0
